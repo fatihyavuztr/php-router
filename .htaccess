@@ -1,6 +1,5 @@
 RewriteEngine On
 
-# Eğer istenen dosya veya dizin mevcutsa, işlem yapma
 RewriteCond %{REQUEST_FILENAME} -f [OR]
 RewriteCond %{REQUEST_FILENAME} -d
 RewriteRule ^ - [L]
